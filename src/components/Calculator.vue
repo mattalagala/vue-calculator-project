@@ -1,3 +1,4 @@
+
 <template>
   <div class="calculator">
     <div class="display">{{current || '0'}}</div>
@@ -96,24 +97,32 @@ export default {
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: minmax(50px, auto);
 }
-
 .display {
   grid-column: 1 / 5;
   background-color: #333;
   color: white;
 }
-
 .zero {
   grid-column: 1 / 3;
 }
-
 .btn {
   background-color: #F2F2F2;
   border: 1px solid #999;
 }
-
 .operator {
   background-color: orange;
   color: white;
 }
 </style>
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
